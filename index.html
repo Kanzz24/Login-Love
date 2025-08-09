@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <h2 class="question">เธอชอบเรามั้ย</h2>
+    <img id="gif" alt="gif" src="love-gif.gif">
+
+    <script>
+        const gif = document.getElementById('gif');
+        setInterval(() => {
+            gif.src = 'love-gif.gif?rand=' + Date.now();
+        }, 3000); 
+    </script>
+
+    <style>
+        #gif {
+           width: 250px;
+           height: 200px;
+           display: block;
+           margin: 20px auto 0 auto;
+        }
+    </style>
+
+        <div class="Btn-group"> 
+            <button class="yes-btn">Yes</button> 
+            <button class="no-btn">No</button> 
+        </div> 
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
