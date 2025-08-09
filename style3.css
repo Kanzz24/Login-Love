@@ -1,0 +1,21 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #faf6ee;
+            margin: 0;
+            font-family: sans-serif;
+            color: #ffe4fe;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 280px;
+    margin-top: auto;
+}

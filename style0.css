@@ -1,0 +1,44 @@
+
+body {
+    background-color: white;
+}
+
+.gif {
+    justify-items: center;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 180px;
+    width: 200px;
+}
+
+
+ h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 15px;
+    color: #ff8fb1;
+    margin-top: 200px;
+
+}
+
+button {
+    padding: 11px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #e77fa1;
+    border: none;
+    border-radius: 8px;
+    margin-left: 95px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #c85a82;
+    transform: scale(1.05);
+}
+
